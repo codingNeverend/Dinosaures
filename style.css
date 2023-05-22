@@ -1,0 +1,47 @@
+body {
+  background-image: url("dino.jpg");
+  background-size: cover;
+  font-family: "Century Gothic", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.dinoname {
+  font-size: 2.6rem;
+  font-family: "Century Gothic", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(178, 173, 32);
+  color: darkslategrey;
+  border-radius: 10px;
+  width: 90%;
+  box-shadow: 2px 2px 2px black;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.logo {
+  width: 30%;
+}
+
+.picture {
+  filter: drop-shadow(0.5rem 0.5rem 1rem black);
+  z-index: 2;
+}
+
+.select_card {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  width: 40%;
+  height: 20%;
+}
